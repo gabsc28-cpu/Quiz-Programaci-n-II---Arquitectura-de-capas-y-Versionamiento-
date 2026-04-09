@@ -1,0 +1,169 @@
+========================================
+PROMPT 1
+========================================
+Prompt:
+"¿Cómo estructurar un proyecto en Java usando arquitectura por capas para un sistema de inventario sencillo?"
+
+Resultado:
+Se obtuvo una guía general sobre separación en capas: entidades, DAO, lógica de negocio y presentación.
+
+Uso en el proyecto:
+Se utilizó para definir la estructura de paquetes del sistema.
+
+Mejora del prompt:
+"Explica cada capa con ejemplos concretos en Java y responsabilidades específicas"
+
+----------------------------------------
+
+========================================
+PROMPT 2
+========================================
+Prompt:
+"Generar clase Producto en Java con encapsulamiento, atributos id, nombre, cantidad y precio"
+
+Resultado:
+Se generó una clase base con atributos, constructor, getters y setters.
+
+Uso en el proyecto:
+Se utilizó como base para la entidad Producto.
+
+Mejora del prompt:
+"Agregar también método toString para facilitar la visualización de datos"
+
+----------------------------------------
+
+========================================
+PROMPT 3
+========================================
+Prompt:
+"Cómo definir una interfaz DAO en Java para operaciones CRUD de un objeto Producto"
+
+Resultado:
+Se generaron los métodos básicos: registrar, listar, buscarPorId, actualizar y eliminar.
+
+Uso en el proyecto:
+Se utilizó para definir el contrato de acceso a datos.
+
+Mejora del prompt:
+"Incluir uso de List y buenas prácticas de nombres de métodos"
+
+----------------------------------------
+
+========================================
+PROMPT 4
+========================================
+Prompt:
+"Cómo guardar datos en un archivo .txt en Java usando FileWriter y BufferedWriter"
+
+Resultado:
+Se obtuvo un ejemplo de escritura en archivos en modo append.
+
+Uso en el proyecto:
+Se aplicó para implementar el método registrar en ProductoDAOImpl.
+
+Mejora del prompt:
+"Mostrar cómo estructurar los datos en formato tipo CSV"
+
+----------------------------------------
+
+========================================
+PROMPT 5
+========================================
+Prompt:
+"Cómo leer un archivo .txt en Java y convertir cada línea en objetos"
+
+Resultado:
+Se mostró uso de BufferedReader y split para separar datos.
+
+Uso en el proyecto:
+Se utilizó para implementar el método listar.
+
+Mejora del prompt:
+"Incluir conversión de tipos (int, double) y manejo básico de errores"
+
+----------------------------------------
+
+========================================
+PROMPT 6
+========================================
+Prompt:
+"Cómo buscar un elemento en una lista de objetos en Java por un atributo específico"
+
+Resultado:
+Se explicó el uso de ciclos for para recorrer listas y comparar valores.
+
+Uso en el proyecto:
+Se aplicó en el método buscarPorId reutilizando la lista de productos.
+
+Mejora del prompt:
+"Aplicar el ejemplo específicamente con objetos tipo Producto"
+
+----------------------------------------
+
+========================================
+PROMPT 7
+========================================
+Prompt:
+"Cómo actualizar datos en un archivo .txt en Java si no se puede modificar una línea directamente"
+
+Resultado:
+Se explicó la estrategia de leer todo, modificar en memoria y reescribir el archivo.
+
+Uso en el proyecto:
+Se aplicó en el método actualizar.
+
+Mejora del prompt:
+"Mostrar implementación completa con lista de objetos"
+
+----------------------------------------
+
+========================================
+PROMPT 8
+========================================
+Prompt:
+"Cómo eliminar un registro de un archivo .txt en Java"
+
+Resultado:
+Se recomendó reescribir el archivo omitiendo el elemento a eliminar.
+
+Uso en el proyecto:
+Se utilizó para implementar el método eliminar.
+
+Mejora del prompt:
+"Incluir ejemplo usando listas de objetos y comparación por ID"
+
+----------------------------------------
+
+========================================
+PROMPT 9
+========================================
+Prompt:
+"Cómo estructurar una clase Service en Java para separar lógica de negocio de acceso a datos"
+
+Resultado:
+Se explicó el rol de la capa intermedia y uso de DAO dentro del Service.
+
+Uso en el proyecto:
+Se utilizó para crear ProductoService y agregar validaciones básicas.
+
+Mejora del prompt:
+"Incluir ejemplos de validaciones como evitar IDs duplicados"
+
+----------------------------------------
+
+========================================
+PROMPT 10
+========================================
+Prompt:
+"Cómo hacer un menú interactivo en consola en Java usando Scanner"
+
+Resultado:
+Se mostró cómo usar ciclos y switch para manejar opciones.
+
+Uso en el proyecto:
+Se utilizó para construir la clase Main.
+
+Mejora del prompt:
+"Separar lógica en métodos para mantener el código más limpio"
+
+----------------------------------------
